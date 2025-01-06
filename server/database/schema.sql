@@ -13,7 +13,7 @@ create table item (
 
 create table category (
   id int unsigned primary key auto_increment not null,
-  name varchar(255) not null
+  name varchar(255) not null unique_key
 );
 
 create table program (
